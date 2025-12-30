@@ -17,7 +17,7 @@
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
             "version": "3.9.4",
             "address": "mc.hypixel.net",
-            "minecraftVersion": "1.8.8",
+            "minecraftVersion": "1.16.5",
             "discord": {
                 "shortId": "Production",
                 "largeImageText": "WesterosCraft Production Server",
@@ -27,13 +27,14 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
+                      "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+                     "name": "Minecraft Forge",
+                       "type": "ForgeHosted",
+
                     "artifact": {
                         "size": 4450992,
                         "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                       "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar"
                     },
                     "subModules": [
                         {

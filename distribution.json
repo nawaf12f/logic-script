@@ -1,36 +1,34 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "YOUR_DISCORD_CLIENT_ID",
+        "clientId": "",
         "smallImageText": "My Server",
         "smallImageKey": "seal-circle"
     },
-    "rss": "https://your-website.com/news.rss",
     "servers": [
         {
-            "id": "MyServer-1.16.5",
-            "name": "سيرفريي 1.16.5",
-            "description": "سيرفر Forge 1.16.5",
-            "icon": "https://i.imgur.com/your-icon.png",
+            "id": "Vanilla-1.16.5",
+            "name": "ماينكرافت 1.16.5",
+            "description": "Vanilla Minecraft 1.16.5",
+            "icon": null,
             "version": "1.0.0",
-            "address": "play.yourserver.net:25565",
+            "address": "localhost:25565",
             "minecraftVersion": "1.16.5",
             "discord": {
-                "shortId": "Server 1.16.5",
-                "largeImageText": "يلعب في سيرفر 1.16.5",
-                "largeImageKey": "server-1165"
+                "shortId": "Vanilla 1.16.5",
+                "largeImageText": "Vanilla Minecraft",
+                "largeImageKey": "server-icon"
             },
             "mainServer": true,
             "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.16.5-36.2.39:universal",
-                    "name": "Minecraft Forge 1.16.5",
-                    "type": "Forge",
+                    "id": "1.16.5",
+                    "name": "Minecraft 1.16.5",
+                    "type": "VersionManifest",
                     "artifact": {
-                        "size": 7481495,
-                        "MD5": "16654cc79a75b696b8c1c177072dae7e",
-                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar"
+                        "size": 0,
+                        "MD5": "0"
                     }
                 }
             ]

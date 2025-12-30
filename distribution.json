@@ -10,7 +10,7 @@
         {
             "id": "MyServer-1.16.5",
             "name": "سيرفري 1.16.5",
-            "description": "سيرفر Forge 1.16.5 مع مودات تلقائية",
+            "description": "سيرفر Forge 1.16.5",
             "icon": "https://i.imgur.com/your-icon.png",
             "version": "1.0.0",
             "address": "play.yourserver.net:25565",
@@ -24,28 +24,14 @@
             "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+                    "id": "net.minecraftforge:forge:1.16.5-36.2.39:universal",
                     "name": "Minecraft Forge 1.16.5",
-                    "type": "ForgeHosted",
-                    "required": {
-                        "value": true
-                    },
+                    "type": "Forge",
                     "artifact": {
-                        "size": 2504067,
-                        "MD5": "3337e44edf13c5759548623b5866b967",
-                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.16.5",
-                            "name": "Minecraft 1.16.5",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "0"
-                            }
-                        }
-                    ]
+                        "size": 7481495,
+                        "MD5": "16654cc79a75b696b8c1c177072dae7e",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar"
+                    }
                 }
             ]
         }

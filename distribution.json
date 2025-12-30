@@ -1,49 +1,49 @@
 {
   "version": "1.0.0",
-  "rss": "https://your-website.com/news.rss",
-  "discord": {
-    "clientId": "",
-    "smallImageText": "سيرفري",
-    "smallImageKey": "server"
-  },
   "servers": [
     {
-      "id": "MyServer-1.16.5",
-      "name": "سيرفري 1.16.5",
-      "description": "Minecraft 1.16.5 مع مودات",
-      "icon": null,
+      "id": "forge-1.16.5",
+      "name": "Forge 1.16.5",
+      "description": "Minecraft 1.16.5 Forge Full Profile",
+      "icon": "",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "1.16.5",
-        "largeImageText": "يلعب ماينكرافت",
-        "largeImageKey": "server-icon"
-      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "1.16.5",
+          "id": "net.minecraft:1.16.5",
           "name": "Minecraft 1.16.5",
           "type": "VersionManifest",
           "artifact": {
-            "size": 0,
-            "MD5": "0"
+            "url": "https://piston-meta.mojang.com/v1/packages/4d27cfa9c99a77f3f0f71f99e7b95a3f4b8a4f2c/1.16.5.json",
+            "MD5": "4d27cfa9c99a77f3f0f71f99e7b95a3f4b8a4f2c",
+            "size": 191388
           }
         },
+
         {
-          "id": "com.yourserver:serverhub:40",
+          "id": "forge-1.16.5-36.2.39",
+          "name": "Forge 1.16.5",
+          "type": "Forge",
+          "artifact": {
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar",
+            "MD5": "d0a1cba1e3c1a3b4b13c3b51a8d59d7b",
+            "size": 6389136
+          }
+        },
+
+        {
+          "id": "serverhub",
           "name": "ServerHub Mod",
           "type": "ForgeMod",
-          "required": {
-            "value": true
-          },
+          "required": true,
           "artifact": {
-            "size": 9958324,
-            "MD5": "7bec90bc7ff126633354d4ae9163d695",
             "url": "https://raw.githubusercontent.com/nawaf12f/logic-script/main/serverhub-40.jar",
-            "path": "serverhub-40.jar"
+            "path": "mods/serverhub-40.jar",
+            "size": 9958324,
+            "MD5": "7bec90bc7ff126633354d4ae9163d695"
           }
         }
       ]

@@ -31,8 +31,8 @@
                         "value": true
                     },
                     "artifact": {
-                        "size": 50363888,
-                        "MD5": "52d67b3b9d7edda988b8af5a333dc9cf",
+                        "size": 2504067,
+                        "MD5": "3337e44edf13c5759548623b5866b967",
                         "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
                     },
                     "subModules": [
@@ -47,7 +47,6 @@
                         }
                     ]
                 }
-              
             ]
         }
     ]

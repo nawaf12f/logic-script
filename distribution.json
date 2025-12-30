@@ -1,53 +1,131 @@
 {
+
     "version": "1.0.0",
+
     "discord": {
+
         "clientId": "YOUR_DISCORD_CLIENT_ID",
+
         "smallImageText": "My Server",
+
         "smallImageKey": "seal-circle"
+
     },
+
     "rss": "https://your-website.com/news.rss",
+
     "servers": [
+
         {
+
             "id": "MyServer-1.16.5",
+
             "name": "سيرفري 1.16.5",
+
             "description": "سيرفر Forge 1.16.5 مع مودات",
+
             "icon": "https://i.imgur.com/your-icon.png",
+
             "version": "1.0.0",
+
             "address": "play.yourserver.net:25565",
+
             "minecraftVersion": "1.16.5",
+
             "discord": {
+
                 "shortId": "Server 1.16.5",
+
                 "largeImageText": "يلعب في سيرفر 1.16.5",
+
                 "largeImageKey": "server-1165"
+
             },
+
             "mainServer": true,
+
             "autoconnect": false,
+
             "modules": [
+
                 {
+
                     "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+
                     "name": "Minecraft Forge 1.16.5",
+
                     "type": "ForgeHosted",
+
                     "required": {
+
                         "value": true
+
                     },
+
                     "artifact": {
+
                         "size": 50363888,
+
                         "MD5": "52d67b3b9d7edda988b8af5a333dc9cf",
+
                         "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+
                     },
+
                     "subModules": [
+
                         {
+
                             "id": "1.16.5",
+
                             "name": "Minecraft 1.16.5",
+
                             "type": "VersionManifest",
+
                             "artifact": {
+
                                 "size": 0,
+
                                 "MD5": "0"
+
                             }
+
                         }
+
                     ]
+
+                },
+
+                {
+
+                    "id": "serverhub@40",
+
+                    "name": "ServerHub",
+
+                    "type": "ForgeMod",
+
+                    "required": {
+
+                        "value": true
+
+                    },
+
+                    "artifact": {
+
+                        "size": 9958324,
+
+                        "MD5": "7bec90bc7ff126633354d4ae9163d695",
+
+                        "url": "https://raw.githubusercontent.com/nawaf12f/logic-script/main/serverhub-40.jar"
+
+                    }
+
                 }
+
             ]
+
         }
+
     ]
+
 }

@@ -48,35 +48,7 @@
                     ]
                 },
                 {
-                    "id": "jei@1.16.5-7.7.1.152",
-                    "name": "Just Enough Items",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 795699,
-                        "MD5": "YOUR_MD5_HERE",
-                        "url": "https://raw.githubusercontent.com/nawaf12f/minecraft-mods-1.16.5/main/jei-1.16.5-7.7.1.152.jar"
-                    }
-                },
-                {
-                    "id": "optifine@1.16.5-HD-U-G8",
-                    "name": "OptiFine",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": false,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 2845123,
-                        "MD5": "YOUR_MD5_HERE",
-                        "url": "https://raw.githubusercontent.com/nawaf12f/minecraft-mods-1.16.5/main/OptiFine_1.16.5_HD_U_G8.jar"
-                    }
-                },
-                {
-
-              "id": "serverhub@40",
+                    "id": "com.yourserver:serverhub:40",
                     "name": "ServerHub",
                     "type": "ForgeMod",
                     "required": {
@@ -85,7 +57,8 @@
                     "artifact": {
                         "size": 9958324,
                         "MD5": "7bec90bc7ff126633354d4ae9163d695",
-                        "url": "https://raw.githubusercontent.com/nawaf12f/logic-script/main/serverhub-40.jar"
+                        "url": "https://raw.githubusercontent.com/nawaf12f/logic-script/main/serverhub-40.jar",
+                        "path": "serverhub-40.jar"
                     }
                 }
             ]

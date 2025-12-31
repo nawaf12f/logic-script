@@ -43,7 +43,7 @@
                             "artifact": {
                                 "size": 32999,
                                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "https://launcher.mojang.com/v1/objects/4dd501a6caf08374e06951ba585f32037b69c5810/launchwrapper-1.12.jar"
+                                "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
                             }
                         },
                         {
@@ -53,7 +53,7 @@
                             "artifact": {
                                 "size": 247787,
                                 "MD5": "f5ad16c7f0338b541978b0430d51dc83",
-                                "url": "https://launcher.mojang.com/v1/objects/bb7e549bcc13b1f0e0ff0883cc33f4efff12cb65/asm-all-5.2.jar"
+                                "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
                             }
                         },
                         {
@@ -63,7 +63,7 @@
                             "artifact": {
                                 "size": 248566,
                                 "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                                "url": "https://launcher.mojang.com/v1/objects/8b630efc0bcd86c0bde2509e01e1e796b0e1fdf4/jline-2.13.jar"
+                                "url": "https://libraries.minecraft.net/jline/jline/2.13/jline-2.13.jar"
                             }
                         },
                         {
@@ -73,7 +73,7 @@
                             "artifact": {
                                 "size": 456048,
                                 "MD5": "60edf048b0c60f6e2d3e37c2f85e7b5f",
-                                "url": "https://launcher.mojang.com/v1/objects/25699150c6177ad96b4d61f1797060a11d626d9c/commons-lang3-3.2.1.jar"
+                                "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
                             }
                         },
                         {
@@ -83,7 +83,7 @@
                             "artifact": {
                                 "size": 2521419,
                                 "MD5": "3a3d111be1be1b745edfa7d91678a12d",
-                                "url": "https://launcher.mojang.com/v1/objects/05a503731fffe2866e41dd59331f12ee82ca61d1a/guava-21.0.jar"
+                                "url": "https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar"
                             }
                         },
                         {
@@ -93,7 +93,7 @@
                             "artifact": {
                                 "size": 231952,
                                 "MD5": "baf95d8519d00e5de60182cb5ceb91a3",
-                                "url": "https://launcher.mojang.com/v1/objects/d3b48190e516fcd7a189265483d0a0da90b74f85/gson-2.8.0.jar"
+                                "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
                             }
                         },
                         {
@@ -103,7 +103,7 @@
                             "artifact": {
                                 "size": 78146,
                                 "MD5": "13560a58a50fdf670243e39e7c8fccef",
-                                "url": "https://launcher.mojang.com/v1/objects/1440beb51d75367ded3cedeec141be298a0160b8/jopt-simple-5.0.4.jar"
+                                "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
                             }
                         },
                         {
@@ -113,7 +113,7 @@
                             "artifact": {
                                 "size": 229402,
                                 "MD5": "e801d13612e22cad62fb3c58f3f3eae1",
-                                "url": "https://launcher.mojang.com/v1/objects/2015b240b65db53f66e6ca088e315a171dd00a017/log4j-api-2.8.1.jar"
+                                "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
                             }
                         },
                         {
@@ -123,7 +123,7 @@
                             "artifact": {
                                 "size": 1402925,
                                 "MD5": "4ac28ff2f1ddf05dae3043b5e110b3de",
-                                "url": "https://launcher.mojang.com/v1/objects/e54dfb2155994a0e6071ca0b34ca1314a982bbb2/log4j-core-2.8.1.jar"
+                                "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
                             }
                         },
                         {
@@ -133,7 +133,7 @@
                             "artifact": {
                                 "size": 318956,
                                 "MD5": "d8726b351157b761ccc4487475e706f0",
-                                "url": "https://launcher.mojang.com/v1/objects/52e8f2e57007d16a8dceda3e443e41dff43e965d/vecmath-1.5.2.jar"
+                                "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
                             }
                         },
                         {
@@ -143,7 +143,7 @@
                             "artifact": {
                                 "size": 2723617,
                                 "MD5": "8fc4b1651c90e3c1dd9d197d5cbfbe00",
-                                "url": "https://launcher.mojang.com/v1/objects/8389e40252c397db981efeb4eca5f98359a376536/trove4j-3.0.3.jar"
+                                "url": "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
                             }
                         }
                     ]

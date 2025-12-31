@@ -1,58 +1,42 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "",
   "discord": {
     "clientId": "960237027884929054",
-    "smallImageText": "X10 Launcher",
+    "smallImageText": "Launcher",
     "smallImageKey": "smallimg"
   },
   "servers": [
     {
-      "id": "X10Server-1.16.5",
-      "name": "X10Server (Minecraft 1.16.5)",
-      "description": "X10Server Running Minecraft 1.16.5 (Forge v36.2.33)",
+      "id": "Forge-1.16.5",
+      "name": "Minecraft Forge 1.16.5",
+      "description": "Minecraft 1.16.5 (Forge 36.2.33)",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "",
-        "largeImageText": "",
-        "largeImageKey": ""
-      },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.16.5-36.2.33",
-          "name": "Minecraft Forge (base jar)",
+          "name": "Forge 1.16.5",
           "type": "ForgeHosted",
           "artifact": {
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.jar",
             "size": 212610,
-            "MD5": "c5907dc90a144fc9c2a472f9ec62f4af",
-            "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.jar"
+            "MD5": "c5907dc90a144fc9c2a472f9ec62f4af"
           },
           "subModules": [
             {
-              "id": "1.16.5-36.2.33",
-              "name": "Minecraft Forge (version.json)",
+              "id": "1.16.5-forge-36.2.33",
+              "name": "Forge Version Manifest",
               "type": "VersionManifest",
               "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.json",
                 "size": 13577,
-                "MD5": "0a9a8e2d95660d9547a2936ab8a3c4b0",
-                "url": "http://files.x10-dev.com/repo/versions/1.16.5-forge-36.2.33/1.16.5-forge-36.2.33.json"
+                "MD5": "0a9a8e2d95660d9547a2936ab8a3c4b0"
               }
-            },
-            {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.33:universal",
-              "name": "Minecraft Forge (universal jar)",
-              "type": "Library",
-              "artifact": {
-                "size": 2763890,
-                "MD5": "a265cc6068146b42aaa5a558f3c41c7b",
-                "url": "http://files.x10-dev.com/repo/lib/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33-universal.jar"
-              },
-              "subModules": []
             }
           ]
         }

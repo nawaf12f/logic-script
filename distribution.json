@@ -2,16 +2,16 @@
   "version": "1.0.0",
   "discord": {
     "clientId": "847677734261800006",
-    "smallImageText": "Minecdraft 1.16.5 Forge",
+    "smallImageText": "Minecraft 1.16.5",
     "smallImageKey": "seal-circle"
   },
   "servers": [
     {
-      "id": "LocalServer_1.16.5",
-      "name": "Minecraft 1.16.5 Forge (Local)",
-      "description": "Local server - Minecraft 1.16.5 with Forge - No connection needed!",
-      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
-      "address": "mc.hypixel.net",
+      "id": "NawafServer",
+      "name": "Nawaf's Minecraft Server 1.16.5",
+      "description": "Minecraft 1.16.5 Forge Server - Ready to Play",
+      "icon": "https://www.minecraftforge.net/images/forge.png",
+      "address": "localhost:25565",
       "discord": {
         "shortId": "Playing Minecraft 1.16.5",
         "largeImageText": "Minecraft Forge 1.16.5",
@@ -26,8 +26,8 @@
           "type": "ForgeHosted",
           "artifact": {
             "size": 5641029,
-            "MD5": "9e4b5c6f8d3a2e1f7c4b9a8e5d2f1c6a",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+            "MD5": "5edd6d47c14e05a04d6e62cfc7d1e2a6",
+            "url": "https://files.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
           },
           "subModules": [
             {

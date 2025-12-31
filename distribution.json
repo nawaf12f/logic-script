@@ -13,7 +13,7 @@
         {
             "id": "NawafServer-1.16.5",
             "name": "Nawaf's Minecraft Server 1.16.5",
-            "description": "Minecraft 1.16.5 Forge Server - Fully Working",
+            "description": "Minecraft 1.16.5 Forge",
             "icon": "https://www.minecraftforge.net/images/forge.png",
             "version": "1.16.5",
             "address": "localhost:25565",
@@ -37,101 +37,101 @@
                     "subModules": [
                         {
                             "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
+                            "name": "LaunchWrapper",
                             "type": "Library",
                             "artifact": {
                                 "size": 32999,
-                                "url": "https://repo.maven.apache.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                                "url": "https://maven.apache.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
                             }
                         },
                         {
                             "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "Mojang (ASM)",
+                            "name": "ASM",
                             "type": "Library",
                             "artifact": {
                                 "size": 247787,
-                                "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                                "url": "https://maven.apache.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
                             }
                         },
                         {
                             "id": "jline:jline:2.13",
-                            "name": "Mojang (jline)",
+                            "name": "jline",
                             "type": "Library",
                             "artifact": {
                                 "size": 248566,
-                                "url": "https://repo.maven.apache.org/maven2/jline/jline/2.13/jline-2.13.jar"
+                                "url": "https://maven.apache.org/maven2/jline/jline/2.13/jline-2.13.jar"
                             }
                         },
                         {
                             "id": "org.apache.commons:commons-lang3:3.2.1",
-                            "name": "Mojang (commons-lang3)",
+                            "name": "commons-lang3",
                             "type": "Library",
                             "artifact": {
                                 "size": 456048,
-                                "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
+                                "url": "https://maven.apache.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
                             }
                         },
                         {
                             "id": "com.google.guava:guava:21.0",
-                            "name": "Mojang (Guava)",
+                            "name": "Guava",
                             "type": "Library",
                             "artifact": {
                                 "size": 2521419,
-                                "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar"
+                                "url": "https://maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar"
                             }
                         },
                         {
                             "id": "com.google.code.gson:gson:2.8.0",
-                            "name": "Mojang (Gson)",
+                            "name": "Gson",
                             "type": "Library",
                             "artifact": {
                                 "size": 231952,
-                                "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+                                "url": "https://maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
                             }
                         },
                         {
                             "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-                            "name": "Mojang (jopt-simple)",
+                            "name": "jopt-simple",
                             "type": "Library",
                             "artifact": {
                                 "size": 78146,
-                                "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                                "url": "https://maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
                             }
                         },
                         {
                             "id": "org.apache.logging.log4j:log4j-api:2.8.1",
-                            "name": "Mojang (Log4J API)",
+                            "name": "Log4J API",
                             "type": "Library",
                             "artifact": {
                                 "size": 229402,
-                                "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+                                "url": "https://maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
                             }
                         },
                         {
                             "id": "org.apache.logging.log4j:log4j-core:2.8.1",
-                            "name": "Mojang (Log4J Core)",
+                            "name": "Log4J Core",
                             "type": "Library",
                             "artifact": {
                                 "size": 1402925,
-                                "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                                "url": "https://maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
                             }
                         },
                         {
                             "id": "java3d:vecmath:1.5.2",
-                            "name": "Mojang (vecmath)",
+                            "name": "vecmath",
                             "type": "Library",
                             "artifact": {
                                 "size": 318956,
-                                "url": "https://repo.maven.apache.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                                "url": "https://maven.apache.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
                             }
                         },
                         {
                             "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Mojang (Trove4j)",
+                            "name": "Trove4J",
                             "type": "Library",
                             "artifact": {
                                 "size": 2723617,
-                                "url": "https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                                "url": "https://maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
                             }
                         }
                     ]

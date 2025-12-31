@@ -1,13 +1,28 @@
 {
-  "version": "1.0.0",
-  "rss": "",
+  "meta": {
+    "rss": "",
+    "discord": {
+      "clientId": "",
+      "smallImageKey": "",
+      "smallImageText": ""
+    }
+  },
+  "java": {
+    "oracle": "https://www.java.com/en/download/",
+    "recommended": {
+      "windows": "1.8.0_202",
+      "linux": "1.8.0_202",
+      "darwin": "1.8.0_202"
+    }
+  },
   "servers": [
     {
       "id": "forge-1.16.5",
       "name": "Forge 1.16.5",
-      "description": "Minecraft Forge 1.16.5",
+      "description": "Minecraft Forge 1.16.5 (Stable)",
       "icon": null,
       "version": "1.0.0",
+      "address": "",
       "minecraftVersion": "1.16.5",
       "mainServer": true,
       "autoconnect": false,
@@ -15,7 +30,10 @@
         {
           "id": "net.minecraftforge:forge:1.16.5-36.2.39",
           "name": "Minecraft Forge",
-          "type": "ForgeHosted"
+          "type": "ForgeHosted",
+          "required": {
+            "value": true
+          }
         }
       ]
     }

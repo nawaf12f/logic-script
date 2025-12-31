@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "discord": {
-    "clientId": "YOUR_DISCORD_ID",
+    "clientId": "847677734261800006",
     "smallImageText": "Minecraft 1.16.5 Forge",
     "smallImageKey": "seal-circle"
   },
@@ -12,7 +12,7 @@
     {
       "id": "nawaf-server",
       "name": "Nawaf's Minecraft Server 1.16.5",
-      "description": "Minecraft 1.16.5 Forge - Embedded Profile (No Download Errors)",
+      "description": "Minecraft 1.16.5 Forge with Multiple Download Sources",
       "icon": "https://www.minecraftforge.net/images/forge.png",
       "version": "1.16.5",
       "address": "localhost:25565",
@@ -31,7 +31,11 @@
           "type": "ForgeHosted",
           "artifact": {
             "size": 5641029,
-            "url": "https://files.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar",
+            "fallback": [
+              "https://files.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar",
+              "https://launcher.mojang.com/v1/objects/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+            ]
           },
           "subModules": [
             {
@@ -40,7 +44,11 @@
               "type": "Library",
               "artifact": {
                 "size": 32999,
-                "url": "asset://minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                "url": "https://repo.maven.apache.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+                  "https://maven.apache.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                ]
               }
             },
             {
@@ -49,7 +57,11 @@
               "type": "Library",
               "artifact": {
                 "size": 247787,
-                "url": "asset://minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar",
+                  "https://maven.apache.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                ]
               }
             },
             {
@@ -58,7 +70,11 @@
               "type": "Library",
               "artifact": {
                 "size": 248566,
-                "url": "asset://minecraft/libraries/jline/jline/2.13/jline-2.13.jar"
+                "url": "https://repo.maven.apache.org/maven2/jline/jline/2.13/jline-2.13.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/jline/jline/2.13/jline-2.13.jar",
+                  "https://maven.apache.org/maven2/jline/jline/2.13/jline-2.13.jar"
+                ]
               }
             },
             {
@@ -67,7 +83,11 @@
               "type": "Library",
               "artifact": {
                 "size": 456048,
-                "url": "asset://minecraft/libraries/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar",
+                  "https://maven.apache.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
+                ]
               }
             },
             {
@@ -76,7 +96,11 @@
               "type": "Library",
               "artifact": {
                 "size": 2521419,
-                "url": "asset://minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar"
+                "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar",
+                  "https://maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar"
+                ]
               }
             },
             {
@@ -85,7 +109,11 @@
               "type": "Library",
               "artifact": {
                 "size": 231952,
-                "url": "asset://minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+                "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar",
+                  "https://maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+                ]
               }
             },
             {
@@ -94,7 +122,11 @@
               "type": "Library",
               "artifact": {
                 "size": 78146,
-                "url": "asset://minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+                  "https://maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                ]
               }
             },
             {
@@ -103,7 +135,11 @@
               "type": "Library",
               "artifact": {
                 "size": 229402,
-                "url": "asset://minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar",
+                  "https://maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+                ]
               }
             },
             {
@@ -112,7 +148,11 @@
               "type": "Library",
               "artifact": {
                 "size": 1402925,
-                "url": "asset://minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar",
+                  "https://maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                ]
               }
             },
             {
@@ -121,7 +161,11 @@
               "type": "Library",
               "artifact": {
                 "size": 318956,
-                "url": "asset://minecraft/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                "url": "https://repo.maven.apache.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+                  "https://maven.apache.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                ]
               }
             },
             {
@@ -130,7 +174,11 @@
               "type": "Library",
               "artifact": {
                 "size": 2723617,
-                "url": "asset://minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                "url": "https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+                "fallback": [
+                  "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+                  "https://maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                ]
               }
             }
           ]

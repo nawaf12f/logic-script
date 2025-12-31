@@ -1,46 +1,22 @@
 {
-  "version": "1.0.0",
-  "rss": "",
-  "discord": {
-    "clientId": "960237027884929054",
-    "smallImageText": "Launcher",
-    "smallImageKey": "smallimg"
+  "id": "net.minecraftforge:forge:1.16.5-36.2.33",
+  "name": "Forge 1.16.5",
+  "type": "ForgeHosted",
+  "artifact": {
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33-installer.jar",
+    "size": 5821203,
+    "MD5": "IGNORE"
   },
-  "servers": [
+  "subModules": [
     {
-      "id": "Forge-1.16.5",
-      "name": "Minecraft Forge 1.16.5",
-      "description": "Minecraft 1.16.5 (Forge 36.2.33)",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.16.5",
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.33",
-          "name": "Forge 1.16.5",
-          "type": "ForgeHosted",
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.jar",
-            "size": 212610,
-            "MD5": "c5907dc90a144fc9c2a472f9ec62f4af"
-          },
-          "subModules": [
-            {
-              "id": "1.16.5-forge-36.2.33",
-              "name": "Forge Version Manifest",
-              "type": "VersionManifest",
-              "artifact": {
-                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.json",
-                "size": 13577,
-                "MD5": "0a9a8e2d95660d9547a2936ab8a3c4b0"
-              }
-            }
-          ]
-        }
-      ]
+      "id": "1.16.5-forge-36.2.33",
+      "name": "Forge Version Manifest",
+      "type": "VersionManifest",
+      "artifact": {
+        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.33/forge-1.16.5-36.2.33.json",
+        "size": 14000,
+        "MD5": "IGNORE"
+      }
     }
   ]
 }

@@ -1,34 +1,142 @@
 {
-  "version": "1.0.0",
-  "rss": "",
-  "discord": {
-    "clientId": "847677734261800006",
-    "smallImageText": "Minecraft 1.16.5 Forge",
-    "smallImageKey": "seal-circle"
-  },
-  "java": {
-    "oracle": "https://www.java.com/en/download/"
-  },
-  "servers": [
-    {
-      "id": "forge-1.16.5",
-      "name": "Minecraft Forge 1.16.5",
-      "description": "Forge 1.16.5 Stable",
-      "icon": null,
-      "version": "1.0.0",
-      "minecraftVersion": "1.16.5",
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "847677734261800006",
+        "smallImageText": "Minecraft 1.16.5 Forge",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
+    },
+    "rss": "https://www.minecraftforge.net/",
+    "servers": [
         {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.39",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "required": {
-            "value": true
-          }
+            "id": "NawafServer-1.16.5",
+            "name": "Nawaf's Minecraft Server 1.16.5",
+            "description": "Minecraft 1.16.5 Forge Server - Fully Working",
+            "icon": "https://www.minecraftforge.net/images/forge.png",
+            "version": "1.16.5",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.16.5",
+            "discord": {
+                "shortId": "Playing",
+                "largeImageText": "Minecraft 1.16.5 Forge",
+                "largeImageKey": "seal-circle"
+            },
+            "mainServer": true,
+            "autoconnect": false,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+                    "name": "Minecraft Forge 1.16.5",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 5641029,
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "url": "https://repo.maven.apache.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.2",
+                            "name": "Mojang (ASM)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 247787,
+                                "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "jline:jline:2.13",
+                            "name": "Mojang (jline)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 248566,
+                                "url": "https://repo.maven.apache.org/maven2/jline/jline/2.13/jline-2.13.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.commons:commons-lang3:3.2.1",
+                            "name": "Mojang (commons-lang3)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 456048,
+                                "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.guava:guava:21.0",
+                            "name": "Mojang (Guava)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2521419,
+                                "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.code.gson:gson:2.8.0",
+                            "name": "Mojang (Gson)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 231952,
+                                "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+                            "name": "Mojang (jopt-simple)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78146,
+                                "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.logging.log4j:log4j-api:2.8.1",
+                            "name": "Mojang (Log4J API)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 229402,
+                                "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.logging.log4j:log4j-core:2.8.1",
+                            "name": "Mojang (Log4J Core)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1402925,
+                                "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Mojang (vecmath)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 318956,
+                                "url": "https://repo.maven.apache.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Mojang (Trove4j)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2723617,
+                                "url": "https://repo.maven.apache.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

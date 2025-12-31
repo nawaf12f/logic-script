@@ -1,164 +1,34 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "847677734261800006",
-        "smallImageText": "Minecraft 1.16.5 Forge",
-        "smallImageKey": "seal-circle"
-    },
-    "java": {
-        "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
-    },
-    "rss": "https://www.minecraftforge.net/",
-    "servers": [
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "847677734261800006",
+    "smallImageText": "Minecraft 1.16.5 Forge",
+    "smallImageKey": "seal-circle"
+  },
+  "java": {
+    "oracle": "https://www.java.com/en/download/"
+  },
+  "servers": [
+    {
+      "id": "forge-1.16.5",
+      "name": "Minecraft Forge 1.16.5",
+      "description": "Forge 1.16.5 Stable",
+      "icon": null,
+      "version": "1.0.0",
+      "minecraftVersion": "1.16.5",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
         {
-            "id": "NawafServer-1.16.5",
-            "name": "Nawaf's Minecraft Server 1.16.5",
-            "description": "Minecraft 1.16.5 Forge Server - Fully Working",
-            "icon": "https://www.minecraftforge.net/images/forge.png",
-            "version": "1.16.5",
-            "address": "localhost:25565",
-            "minecraftVersion": "1.16.5",
-            "discord": {
-                "shortId": "Playing",
-                "largeImageText": "Minecraft 1.16.5 Forge",
-                "largeImageKey": "seal-circle"
-            },
-            "mainServer": true,
-            "autoconnect": false,
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.16.5-36.2.39",
-                    "name": "Minecraft Forge 1.16.5",
-                    "type": "ForgeHosted",
-                    "artifact": {
-                        "size": 5641029,
-                        "MD5": "5edd6d47c14e05a04d6e62cfc7d1e2a6",
-                        "url": "https://files.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "net.minecraft:launchwrapper:1.12",
-                            "name": "Mojang (LaunchWrapper)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-                            }
-                        },
-                        {
-                            "id": "org.ow2.asm:asm-all:5.2",
-                            "name": "Mojang (ASM)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 247787,
-                                "MD5": "f5ad16c7f0338b541978b0430d51dc83",
-                                "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "jline:jline:2.13",
-                            "name": "Mojang (jline)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 248566,
-                                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                                "url": "https://libraries.minecraft.net/jline/jline/2.13/jline-2.13.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.commons:commons-lang3:3.2.1",
-                            "name": "Mojang (commons-lang3)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 456048,
-                                "MD5": "60edf048b0c60f6e2d3e37c2f85e7b5f",
-                                "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
-                            }
-                        },
-                        {
-                            "id": "com.google.guava:guava:21.0",
-                            "name": "Mojang (Guava)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2521419,
-                                "MD5": "3a3d111be1be1b745edfa7d91678a12d",
-                                "url": "https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar"
-                            }
-                        },
-                        {
-                            "id": "com.google.code.gson:gson:2.8.0",
-                            "name": "Mojang (Gson)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 231952,
-                                "MD5": "baf95d8519d00e5de60182cb5ceb91a3",
-                                "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-                            "name": "Mojang (jopt-simple)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 78146,
-                                "MD5": "13560a58a50fdf670243e39e7c8fccef",
-                                "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.logging.log4j:log4j-api:2.8.1",
-                            "name": "Mojang (Log4J API)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 229402,
-                                "MD5": "e801d13612e22cad62fb3c58f3f3eae1",
-                                "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
-                            }
-                        },
-                        {
-                            "id": "org.apache.logging.log4j:log4j-core:2.8.1",
-                            "name": "Mojang (Log4J Core)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 1402925,
-                                "MD5": "4ac28ff2f1ddf05dae3043b5e110b3de",
-                                "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
-                            }
-                        },
-                        {
-                            "id": "java3d:vecmath:1.5.2",
-                            "name": "Mojang (vecmath)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 318956,
-                                "MD5": "d8726b351157b761ccc4487475e706f0",
-                                "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-                            }
-                        },
-                        {
-                            "id": "net.sf.trove4j:trove4j:3.0.3",
-                            "name": "Mojang (Trove4j)",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 2723617,
-                                "MD5": "8fc4b1651c90e3c1dd9d197d5cbfbe00",
-                                "url": "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "net.minecraft:client:1.16.5",
-                    "name": "Minecraft Client 1.16.5",
-                    "type": "VersionManifest",
-                    "artifact": {
-                        "size": 8794573,
-                        "MD5": "c8f03d7e8b5a0e9d4f1c3a8e7d2f5b6a",
-                        "url": "https://launcher.mojang.com/v1/objects/8f3ca9e6f18a08ccd58d944f82aecef74c8cf3c7/1.16.5.json"
-                    }
-                }
-            ]
+          "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "required": {
+            "value": true
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,151 +1,103 @@
 {
-  "version": "1.0.0",
-  "discord": {
-    "clientId": "847677734261800006",
-    "smallImageText": "Minecraft 1.16.5 Forge",
-    "smallImageKey": "seal-circle"
-  },
-  "java": {
-    "oracle": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html"
-  },
-  "rss": "https://www.minecraftforge.net/",
-  "servers": [
-    {
-      "id": "nawaf-server",
-      "name": "Nawaf's Minecraft Server 1.16.5",
-      "description": "Minecraft 1.16.5 Forge - Full Setup",
-      "icon": "https://www.minecraftforge.net/images/forge.png",
-      "version": "1.16.5",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Playing Minecraft",
-        "largeImageText": "Minecraft 1.16.5 Forge",
-        "largeImageKey": "seal-circle"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.39",
-          "name": "Minecraft Forge 1.16.5",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 5641029,
-            "url": "https://files.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "net.minecraft:client:1.16.5",
-              "name": "Minecraft Client",
-              "type": "Library",
-              "artifact": {
-                "size": 8794573,
-                "url": "https://launcher.mojang.com/v1/objects/8f3ca9e6f18a08ccd58d944f82aecef74c8cf3c7/client.jar"
-              }
+            "version": "1.0.0",
+            "discord": {
+                "clientId": "847677734261800006",
+                "smallImageText": "Minecraft 1.16.5 Forge",
+                "smallImageKey": "seal-circle"
             },
-            {
-              "id": "net.minecraft:launchwrapper:1.12",
-              "name": "LaunchWrapper",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "url": "https://files.minecraftforge.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-all:5.2",
-              "name": "ASM",
-              "type": "Library",
-              "artifact": {
-                "size": 247787,
-                "url": "https://files.minecraftforge.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
-              }
-            },
-            {
-              "id": "jline:jline:2.13",
-              "name": "jline",
-              "type": "Library",
-              "artifact": {
-                "size": 248566,
-                "url": "https://files.minecraftforge.net/jline/jline/2.13/jline-2.13.jar"
-              }
-            },
-            {
-              "id": "org.apache.commons:commons-lang3:3.2.1",
-              "name": "commons-lang3",
-              "type": "Library",
-              "artifact": {
-                "size": 456048,
-                "url": "https://files.minecraftforge.net/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:guava:21.0",
-              "name": "Guava",
-              "type": "Library",
-              "artifact": {
-                "size": 2521419,
-                "url": "https://files.minecraftforge.net/com/google/guava/guava/21.0/guava-21.0.jar"
-              }
-            },
-            {
-              "id": "com.google.code.gson:gson:2.8.0",
-              "name": "Gson",
-              "type": "Library",
-              "artifact": {
-                "size": 231952,
-                "url": "https://files.minecraftforge.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-              "name": "jopt-simple",
-              "type": "Library",
-              "artifact": {
-                "size": 78146,
-                "url": "https://files.minecraftforge.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.8.1",
-              "name": "Log4J API",
-              "type": "Library",
-              "artifact": {
-                "size": 229402,
-                "url": "https://files.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.8.1",
-              "name": "Log4J Core",
-              "type": "Library",
-              "artifact": {
-                "size": 1402925,
-                "url": "https://files.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2",
-              "name": "vecmath",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "url": "https://files.minecraftforge.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3",
-              "name": "Trove4J",
-              "type": "Library",
-              "artifact": {
-                "size": 2723617,
-                "url": "https://files.minecraftforge.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            }
-          ]
+            "rss": "https://www.minecraftforge.net/",
+            "servers": [
+                {
+                    "id": "nawaf-ultimate-server",
+                    "name": "Nawaf's Ultimate Minecraft Server",
+                    "description": "Minecraft 1.16.5 Forge with Modrinth Mods",
+                    "icon": "https://www.minecraftforge.net/images/forge.png",
+                    "version": "1.16.5",
+                    "address": "localhost:25565",
+                    "minecraftVersion": "1.16.5",
+                    "discord": {
+                        "shortId": "Playing Minecraft",
+                        "largeImageText": "Minecraft 1.16.5 Forge",
+                        "largeImageKey": "seal-circle"
+                    },
+                    "mainServer": True,
+                    "autoconnect": False,
+                    "modules": [
+                        {
+                            "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+                            "name": "Minecraft Forge 1.16.5",
+                            "type": "ForgeHosted",
+                            "artifact": {
+                                "size": 5641029,
+                                "url": self.FORGE_URL
+                            },
+                            "subModules": [
+                                {
+                                    "id": "net.minecraft:client:1.16.5",
+                                    "name": "Minecraft Client",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 8794573,
+                                        "url": "https://launcher.mojang.com/v1/objects/8f3ca9e6f18a08ccd58d944f82aecef74c8cf3c7/client.jar"
+                                    }
+                                },
+                                {
+                                    "id": "net.minecraft:launchwrapper:1.12",
+                                    "name": "LaunchWrapper",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 32999,
+                                        "url": "https://files.minecraftforge.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                                    }
+                                },
+                                {
+                                    "id": "org.ow2.asm:asm-all:5.2",
+                                    "name": "ASM",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 247787,
+                                        "url": "https://files.minecraftforge.net/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                                    }
+                                },
+                                {
+                                    "id": "jline:jline:2.13",
+                                    "name": "jline",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 248566,
+                                        "url": "https://files.minecraftforge.net/jline/jline/2.13/jline-2.13.jar"
+                                    }
+                                },
+                                {
+                                    "id": "org.apache.commons:commons-lang3:3.2.1",
+                                    "name": "commons-lang3",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 456048,
+                                        "url": "https://files.minecraftforge.net/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar"
+                                    }
+                                },
+                                {
+                                    "id": "com.google.guava:guava:21.0",
+                                    "name": "Guava",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 2521419,
+                                        "url": "https://files.minecraftforge.net/com/google/guava/guava/21.0/guava-21.0.jar"
+                                    }
+                                },
+                                {
+                                    "id": "com.google.code.gson:gson:2.8.0",
+                                    "name": "Gson",
+                                    "type": "Library",
+                                    "artifact": {
+                                        "size": 231952,
+                                        "url": "https://files.minecraftforge.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
-}

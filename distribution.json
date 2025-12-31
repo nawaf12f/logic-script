@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "discord": {
     "clientId": "847677734261800006",
-    "smallImageText": "Minecraft 1.16.5 Forge",
+    "smallImageText": "Minecdraft 1.16.5 Forge",
     "smallImageKey": "seal-circle"
   },
   "servers": [
@@ -11,7 +11,7 @@
       "name": "Minecraft 1.16.5 Forge (Local)",
       "description": "Local server - Minecraft 1.16.5 with Forge - No connection needed!",
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==",
-      "address": "localhost:25565",
+      "address": "mc.hypixel.net",
       "discord": {
         "shortId": "Playing Minecraft 1.16.5",
         "largeImageText": "Minecraft Forge 1.16.5",
